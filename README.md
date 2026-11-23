@@ -49,54 +49,6 @@
 
 에디터 툴(동물 프리팹 · 테마 청크 · 테마 적 · 선택 카드 생성)은 모두 AI가 작성해 `AI-Assisted/Editor/`에 따로 두었습니다.
 
-## AI 협업
-
-`AI-Assisted/`에는 AI(Claude)가 작성한 코드를 내가 짠 코드와 나눠 두었습니다.
-
-- [Editor/ChunkThemeBuilder.cs](AI-Assisted/Editor/ChunkThemeBuilder.cs)
-- [Editor/EnemyThemeBuilder.cs](AI-Assisted/Editor/EnemyThemeBuilder.cs)
-- [Editor/RunnerPrefabBuilder.cs](AI-Assisted/Editor/RunnerPrefabBuilder.cs)
-- [Editor/RunnerPrefabRequestWatcher.cs](AI-Assisted/Editor/RunnerPrefabRequestWatcher.cs)
-- [Editor/SelectCardBuilder.cs](AI-Assisted/Editor/SelectCardBuilder.cs)
-
-프로젝트 문서의 AI 활용: 레벨 생성 일부 수정, 동물 에셋 제작 파이프라인, 맵 테마(청크 · 적 · 테마 구조) 제작에 Claude 사용.
-
-에디터 툴(동물 프리팹 · 테마 청크 · 테마 적 · 선택 카드 생성)은 모두 AI가 작성해 `AI-Assisted/Editor/`에 따로 두었습니다.
-
-## AI 협업
-
-`AI-Assisted/`에는 AI(Claude)가 작성한 코드를 내가 짠 코드와 나눠 두었습니다.
-
-- [Editor/ChunkThemeBuilder.cs](AI-Assisted/Editor/ChunkThemeBuilder.cs)
-- [Editor/EnemyThemeBuilder.cs](AI-Assisted/Editor/EnemyThemeBuilder.cs)
-- [Editor/RunnerPrefabBuilder.cs](AI-Assisted/Editor/RunnerPrefabBuilder.cs)
-- [Editor/RunnerPrefabRequestWatcher.cs](AI-Assisted/Editor/RunnerPrefabRequestWatcher.cs)
-- [Editor/SelectCardBuilder.cs](AI-Assisted/Editor/SelectCardBuilder.cs)
-
-프로젝트 문서의 AI 활용: 레벨 생성 일부 수정, 동물 에셋 제작 파이프라인, 맵 테마(청크 · 적 · 테마 구조) 제작에 Claude 사용.
-
-에디터 툴(동물 프리팹 · 테마 청크 · 테마 적 · 선택 카드 생성)은 모두 AI가 작성해 `AI-Assisted/Editor/`에 따로 두었습니다.
-
-## 강사 제공 코드
-
-`Course-Provided/`에는 수업에서 강사님이 제공한 유틸 중, 이 저장소의 내 코드가 쓰는 파일만 따로 두었습니다. 직접 작성한 코드가 아닙니다.
-
-- [SingletonBase.cs](Course-Provided/SingletonBase.cs)
-
-## AI 협업
-
-`AI-Assisted/`에는 AI(Claude)가 작성한 코드를 내가 짠 코드와 나눠 두었습니다.
-
-- [Editor/ChunkThemeBuilder.cs](AI-Assisted/Editor/ChunkThemeBuilder.cs)
-- [Editor/EnemyThemeBuilder.cs](AI-Assisted/Editor/EnemyThemeBuilder.cs)
-- [Editor/RunnerPrefabBuilder.cs](AI-Assisted/Editor/RunnerPrefabBuilder.cs)
-- [Editor/RunnerPrefabRequestWatcher.cs](AI-Assisted/Editor/RunnerPrefabRequestWatcher.cs)
-- [Editor/SelectCardBuilder.cs](AI-Assisted/Editor/SelectCardBuilder.cs)
-
-프로젝트 문서의 AI 활용: 레벨 생성 일부 수정, 동물 에셋 제작 파이프라인, 맵 테마(청크 · 적 · 테마 구조) 제작에 Claude 사용.
-
-에디터 툴(동물 프리팹 · 테마 청크 · 테마 적 · 선택 카드 생성)은 모두 AI가 작성해 `AI-Assisted/Editor/`에 따로 두었습니다.
-
 ## 강사 제공 코드
 
 `Course-Provided/`에는 수업에서 강사님이 제공한 유틸 중, 이 저장소의 내 코드가 쓰는 파일만 따로 두었습니다. 직접 작성한 코드가 아닙니다.
@@ -136,5 +88,4 @@ images/
 
 - CsvHelper (TSV 데이터 읽기)
 - Synty 에셋(캐릭터 · 맵)
-- AllIn13DShader
 - Cartoon FX (이펙트)
