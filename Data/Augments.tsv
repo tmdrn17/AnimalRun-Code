@@ -1,0 +1,8 @@
+ID	Name	SpriteKey	Description	Type	Value
+0	공격력 강화	Animal Run/Sprites/Augments/Damage_Image	공격력 +20%	Damage	0.2
+1	연사 강화	Animal Run/Sprites/Augments/AttackSpeed_Image	공격 속도 +15%	AttackSpeed	0.15
+2	사거리 강화	Animal Run/Sprites/Augments/Range_Image	사거리 +20%	Range	0.2
+3	탄속 강화	Animal Run/Sprites/Augments/BulletSpeed_Image	탄속 +25%	BulletSpeed	0.25
+4	폭발 강화	Animal Run/Sprites/Augments/Splash_Image	폭발 범위 +0.5	Splash	0.5
+5	무리 증원	Animal Run/Sprites/Augments/AddRunners_Image	러너 +3	AddRunners	3
+6	무리 번식	Animal Run/Sprites/Augments/MultiplyRunners_Image	러너 +50%	MultiplyRunners	0.5

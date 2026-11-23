@@ -1,0 +1,8 @@
+ID	Name	PrefabKey	SpriteKey	Kind	AttackInterval	BulletPrefabKey	BulletDamage	BulletRange	BulletSpeed	BulletSplashRadius
+0	식칼	Animal Run/Prefabs/Weapons/Cleaver	Animal Run/Sprites/Weapons/Cleaver_Image	Throwing	0.5	Animal Run/Prefabs/Bullets/Cleaver_Bullet	15	5.0	15.0	0.0
+1	도끼	Animal Run/Prefabs/Weapons/Axe	Animal Run/Sprites/Weapons/Axe_Image	Throwing	1.2	Animal Run/Prefabs/Bullets/Axe_Bullet	35	4.0	12.0	0.0
+2	석궁	Animal Run/Prefabs/Weapons/Crossbow	Animal Run/Sprites/Weapons/CrossBow_Image	Gun	0.8	Animal Run/Prefabs/Bullets/CrossbowArrow	20	8.0	25.0	0.0
+3	기관총	Animal Run/Prefabs/Weapons/Rifle	Animal Run/Sprites/Weapons/Riple_Image	Gun	0.15	Animal Run/Prefabs/Bullets/Bullet	12	10.0	40.0	0.0
+4	로켓런처	Animal Run/Prefabs/Weapons/RocketLauncher	Animal Run/Sprites/Weapons/Roketlauncher_Image	Rocket	2.5	Animal Run/Prefabs/Bullets/BazookaMissile	100	12.0	12.0	2.5
+5	수류탄	Animal Run/Prefabs/Weapons/Grenade	Animal Run/Sprites/Weapons/Grenade_Image	Grenade	2.0	Animal Run/Prefabs/Bullets/Grenade	80	6.0	9.0	2.0
+6	화염병	Animal Run/Prefabs/Weapons/FireBottle	Animal Run/Sprites/Weapons/FireBottle_Image	Grenade	1.8	Animal Run/Prefabs/Bullets/FireBottle	50	5.5	9.0	1.8
