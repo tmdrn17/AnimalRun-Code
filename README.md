@@ -30,7 +30,7 @@
 |---|---|---|
 | 목표 플레이 시간에 맞춘 레벨 생성 | 플레이 시간 × 기준 속도로 목표 거리를 먼저 정해, 판마다 플레이 시간이 고르게 됩니다. | [ChunkManager.cs](Scripts/Managers/ChunkManager.cs) |
 | 정답을 먼저 정하고 식을 만드는 수식 문 | 결과값을 먼저 뽑고, 그 값이 나오도록 식을 거꾸로 만듭니다. | [DoorQuiz.cs](Scripts/Stage/DoorQuiz.cs) |
-| 이동 경로(선분)로 판정하는 총알 명중 | 콜라이더 없이, 이번 프레임에 총알이 지나간 경로(선분)와 적 사이의 수평 거리로 명중을 판정합니다. | [Bullet.cs](Scripts/Weapon/Bullet.cs) |
+| 콜라이더 없이 거리로 처리하는 적 판정 | 적과 러너의 접촉 및 총알 명중을 물리 콜라이더 이벤트가 아닌 거리·이동 선분 기반으로 판정합니다. | [Enemy.cs](Scripts/Enemy/Enemy.cs) · [Bullet.cs](Scripts/Weapon/Bullet.cs) |
 | 게임 시작 시 동물 · 무기 선택 | 게임을 시작할 때 동물 3개와 무기 3개를 선택지로 줍니다. 고른 동물과 무기로 한 판을 진행합니다. | [SelectManager.cs](Scripts/Managers/SelectManager.cs) |
 
 ![수식 문을 지나며 무리가 늘어나는 장면](images/formula_gate.gif)
@@ -44,10 +44,11 @@
 - [Editor/RunnerPrefabBuilder.cs](AI-Assisted/Editor/RunnerPrefabBuilder.cs)
 - [Editor/RunnerPrefabRequestWatcher.cs](AI-Assisted/Editor/RunnerPrefabRequestWatcher.cs)
 - [Editor/SelectCardBuilder.cs](AI-Assisted/Editor/SelectCardBuilder.cs)
+- [Editor/CastleDefenseSceneBuilder.cs](AI-Assisted/Editor/CastleDefenseSceneBuilder.cs)
 
 프로젝트 문서의 AI 활용: 레벨 생성 일부 수정, 동물 에셋 제작 파이프라인, 맵 테마(청크 · 적 · 테마 구조) 제작에 Claude 사용.
 
-에디터 툴(동물 프리팹 · 테마 청크 · 테마 적 · 선택 카드 생성)은 모두 AI가 작성해 `AI-Assisted/Editor/`에 따로 두었습니다.
+에디터 툴(동물 프리팹 · 테마 청크 · 테마 적 · 선택 카드 · Castle Defense 마을 생성)은 모두 AI가 작성해 `AI-Assisted/Editor/`에 따로 두었습니다.
 
 ## 강사 제공 코드
 
@@ -59,7 +60,7 @@
 
 ```
 AI-Assisted/
-└── Editor/  (5)
+└── Editor/  (6)
 Course-Provided/
 └── SingletonBase.cs
 Data/
