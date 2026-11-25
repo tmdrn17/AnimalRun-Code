@@ -44,11 +44,10 @@
 - [Editor/RunnerPrefabBuilder.cs](AI-Assisted/Editor/RunnerPrefabBuilder.cs)
 - [Editor/RunnerPrefabRequestWatcher.cs](AI-Assisted/Editor/RunnerPrefabRequestWatcher.cs)
 - [Editor/SelectCardBuilder.cs](AI-Assisted/Editor/SelectCardBuilder.cs)
-- [Editor/CastleDefenseSceneBuilder.cs](AI-Assisted/Editor/CastleDefenseSceneBuilder.cs)
 
 프로젝트 문서의 AI 활용: 레벨 생성 일부 수정, 동물 에셋 제작 파이프라인, 맵 테마(청크 · 적 · 테마 구조) 제작에 Claude 사용.
 
-에디터 툴(동물 프리팹 · 테마 청크 · 테마 적 · 선택 카드 · Castle Defense 마을 생성)은 모두 AI가 작성해 `AI-Assisted/Editor/`에 따로 두었습니다.
+에디터 툴(동물 프리팹 · 테마 청크 · 테마 적 · 선택 카드)은 모두 AI가 작성해 `AI-Assisted/Editor/`에 따로 두었습니다.
 
 ## 강사 제공 코드
 
@@ -60,7 +59,7 @@
 
 ```
 AI-Assisted/
-└── Editor/  (6)
+└── Editor/  (5)
 Course-Provided/
 └── SingletonBase.cs
 Data/
