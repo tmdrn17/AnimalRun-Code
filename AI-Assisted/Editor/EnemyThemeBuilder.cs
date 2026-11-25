@@ -9,7 +9,7 @@ namespace Animal_Run.Scripts.EditorTools
     // 테마마다 Synty 캐릭터로 적 프리팹을 만들고 MapTheme 에 연결한다.
     // - 적 동작(Idle / Run)은 이미 구워 둔 휴머노이드 클립(Humanoid Enemy Controller)을 쓴다.
     //   Synty 캐릭터는 모두 Humanoid 리그라 같은 클립이 리타깃되어 그대로 재생된다.
-    // - 적 프리팹은 Synty 캐릭터를 루트로 두고, 기존 테마 적(TemplateEnemyPath)의 Enemy·피격 피드백·콜라이더·체력바를 옮겨 붙인다.
+    // - 적 프리팹은 Synty 캐릭터를 루트로 두고, 기존 테마 적(TemplateEnemyPath)의 Enemy·피격 피드백·체력바를 옮겨 붙인다.
     // 메뉴: Tools/Animal Run/Build Themed Enemies
     // 외부 요청: Temp/ChunkThemeRequests/Enemies.request → Enemies.result, Enemies.png
     public static class EnemyThemeBuilder
@@ -236,7 +236,7 @@ namespace Animal_Run.Scripts.EditorTools
                 root.layer = template.layer;
                 root.tag = template.tag;
 
-                // 캐릭터에 딸린 콜라이더·리지드바디는 빼고 틀 적과 같은 판정만 남긴다.
+                // 적 판정은 거리로 하므로(Enemy · Bullet) 캐릭터에 딸린 콜라이더·리지드바디는 모두 뺀다.
                 foreach (Rigidbody body in root.GetComponentsInChildren<Rigidbody>(true))
                     Object.DestroyImmediate(body);
                 foreach (Collider collider in root.GetComponentsInChildren<Collider>(true))
@@ -252,16 +252,6 @@ namespace Animal_Run.Scripts.EditorTools
                 animator.runtimeAnimatorController = controller;
                 animator.applyRootMotion = false;
                 animator.cullingMode = AnimatorCullingMode.AlwaysAnimate;
-
-                // 콜라이더: 틀 적의 캡슐을 월드 크기 그대로 옮긴다
-                var templateCapsule = template.GetComponent<CapsuleCollider>();
-                var capsule = root.AddComponent<CapsuleCollider>();
-                float s = template.transform.lossyScale.x;
-                capsule.center = templateCapsule.center * s;
-                capsule.radius = templateCapsule.radius * s;
-                capsule.height = templateCapsule.height * s;
-                capsule.direction = templateCapsule.direction;
-                capsule.isTrigger = templateCapsule.isTrigger;
 
                 // 체력바: 캐릭터 머리 위로 옮긴다 (월드 크기 유지)
                 Transform healthBarCanvas = FindChild(template.transform, "HealthBarCanvas");
