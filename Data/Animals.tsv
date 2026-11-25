@@ -8,13 +8,12 @@ ID	Name	PrefabKey	SpriteKey	Kind
 6	누	Animal Run/Prefabs/Runners/Wildebeest	Animal Run/Sprites/Runners/Wildebeest_Image	Medium
 7	페가수스	Animal Run/Prefabs/Runners/Pegasus	Animal Run/Sprites/Runners/Pegasus_Image	Large
 8	기린	Animal Run/Prefabs/Runners/Kirin	Animal Run/Sprites/Runners/Kirin_Image	Large
-9	돼지	Animal Run/Prefabs/Runners/Pig	Animal Run/Sprites/Runners/Pig_Image	Small
-10	유니콘	Animal Run/Prefabs/Runners/Unicorn	Animal Run/Sprites/Runners/Unicorn_Image	Large
-11	다크 페가수스	Animal Run/Prefabs/Runners/DarkPegasus	Animal Run/Sprites/Runners/DarkPegasus_Image	Large
-12	나이트메어	Animal Run/Prefabs/Runners/Nightmare	Animal Run/Sprites/Runners/Nightmare_Image	Large
-13	백기린	Animal Run/Prefabs/Runners/WhiteKirin	Animal Run/Sprites/Runners/WhiteKirin_Image	Large
-14	서리 박쥐 페가수스	Animal Run/Prefabs/Runners/FrostBatPegasus	Animal Run/Sprites/Runners/FrostBatPegasus_Image	Large
-15	유령마	Animal Run/Prefabs/Runners/GhostHorse	Animal Run/Sprites/Runners/GhostHorse_Image	Medium
-16	해골마	Animal Run/Prefabs/Runners/SkeletonHorse	Animal Run/Sprites/Runners/SkeletonHorse_Image	Medium
-17	해마말	Animal Run/Prefabs/Runners/SeahorseSteed	Animal Run/Sprites/Runners/SeahorseSteed_Image	Medium
-18	박	Animal Run/Prefabs/Runners/Bo	Animal Run/Sprites/Runners/Bo_Image	Medium
+9	유니콘	Animal Run/Prefabs/Runners/Unicorn	Animal Run/Sprites/Runners/Unicorn_Image	Large
+10	다크 페가수스	Animal Run/Prefabs/Runners/DarkPegasus	Animal Run/Sprites/Runners/DarkPegasus_Image	Large
+11	나이트메어	Animal Run/Prefabs/Runners/Nightmare	Animal Run/Sprites/Runners/Nightmare_Image	Large
+12	백기린	Animal Run/Prefabs/Runners/WhiteKirin	Animal Run/Sprites/Runners/WhiteKirin_Image	Large
+13	서리 박쥐 페가수스	Animal Run/Prefabs/Runners/FrostBatPegasus	Animal Run/Sprites/Runners/FrostBatPegasus_Image	Large
+14	유령마	Animal Run/Prefabs/Runners/GhostHorse	Animal Run/Sprites/Runners/GhostHorse_Image	Medium
+15	해골마	Animal Run/Prefabs/Runners/SkeletonHorse	Animal Run/Sprites/Runners/SkeletonHorse_Image	Medium
+16	해마말	Animal Run/Prefabs/Runners/SeahorseSteed	Animal Run/Sprites/Runners/SeahorseSteed_Image	Medium
+17	박	Animal Run/Prefabs/Runners/Bo	Animal Run/Sprites/Runners/Bo_Image	Medium

@@ -32,9 +32,7 @@ public class Enemy : MonoBehaviour
         if (TryGetComponent(out hitFeedback) == false)
             hitFeedback = gameObject.AddComponent<EnemyHitFeedback>();
 
-        // 러너(Rigidbody)와 총알이 OnTriggerEnter로 적을 감지할 수 있도록 트리거로 사용한다.
-        foreach (Collider enemyCollider in GetComponentsInChildren<Collider>())
-            enemyCollider.isTrigger = true;
+        // 러너 · 총알과의 판정은 콜라이더 없이 거리로 한다(Enemy.Update · Bullet).
     }
 
     private void Start()
